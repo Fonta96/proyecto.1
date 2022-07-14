@@ -1,0 +1,14 @@
+footer{
+    display:flex;
+   background-color:background-color;
+   justify-content: $justify-content;
+   align-items: center;
+   font-size: 20px;
+}
+
+$map-color:(
+    "azul":blue,
+);
+.facebook:hover{
+    color:map-get($map-color,azul);
+}
